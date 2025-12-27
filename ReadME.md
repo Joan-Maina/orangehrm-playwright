@@ -10,12 +10,11 @@ Setup Instructions
 1. Clone the repository
    git clone https://github.com/Joan-Maina/orangehrm-playwright.git
 2. Install dependencies
-
 3. Install Playwright Browsers
 
 Running the tests:
 
-1.
+1. py -m pytest --headed
 
 Requirements:
 

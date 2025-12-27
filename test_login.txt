@@ -1,0 +1,7 @@
+Feature: Login to OrangeHRM
+
+  Scenario: Valid user logs in successfully
+    Given the user is on the OrangeHRM login page
+    When the user enters valid credentials
+    And clicks the login button
+    Then the user should be redirected to the dashboard
